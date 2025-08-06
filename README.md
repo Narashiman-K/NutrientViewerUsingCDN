@@ -83,23 +83,17 @@ Below is a non-exhaustive array of key events supported by this viewer’s API f
 
 #### License key issues
 - Verify your license key is correctly set in .env
-- Ensure the domain is whitelisted in your Nutrient account
-
-- localStorage quota exceeded
-
-- Clear old documents from localStorage
-- Implement a document limit or cleanup strategy
 
 ## 📦 Technologies Used
 
 - React - UI framework
 - Vite - Build tool and dev server
-- Nutrient Web SDK - PDF viewing and annotation engine
+- Nutrient Web SDK
 - CSS3 - Styling and animations
 
 ## 🙏 Acknowledgments
 
-- Nutrient team for the powerful Web SDK
+- Nutrient Dev team for the powerful Web SDK
 - React team for the excellent framework
 
 ## 📞 Support
