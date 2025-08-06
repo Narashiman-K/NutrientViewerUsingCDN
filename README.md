@@ -16,14 +16,34 @@ A web-based PDF/document viewer leveraging CDN-hosted resources and advanced ann
 #### Prerequisites
 - Web browser (latest Chrome, Firefox, Edge, etc.)
 - Internet access for CDN resources
-#### Installation
-- Clone this repository
+- Node.js (v16 or higher)
+- npm or yarn package manager
+- Nutrient/PSPDFKit license key (optional for evaluation)
+
+1. Clone the repository
 ```
-git clone https://github.com/Narashiman-K/NutrientViewerUsingCDN.git
+git clone [Load nutrient viewer using CDN](https://github.com/Narashiman-K/NutrientViewerUsingCDN.git)
 cd NutrientViewerUsingCDN
 ```
-- Open index.html in your browser
-- No build step is required—the project runs directly in the browser.
+
+2. Install dependencies
+```
+npm install
+```
+
+3. Set up environment variables
+```
+Create a .env file in the root directory: 
+VITE_lkey=YOUR_NUTRIENT_LICENSE_KEY
+```
+Note: The application works without a license key in evaluation mode with watermarks.
+
+4. Run the development server
+```
+npm run dev
+```
+The application will be available at http://localhost:5173
+
 
 #### Usage
 - Drag and drop a PDF or enter a document URL (if supported).
